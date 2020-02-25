@@ -1,0 +1,28 @@
+{
+  "name": "webpack-zip-plugin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config ./webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zycFran/webpack-zip-plugin.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zycFran/webpack-zip-plugin/issues"
+  },
+  "homepage": "https://github.com/zycFran/webpack-zip-plugin#readme",
+  "devDependencies": {
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11"
+  },
+  "dependencies": {
+    "jszip": "^3.2.2"
+  }
+}
